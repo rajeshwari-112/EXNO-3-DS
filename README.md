@@ -265,13 +265,13 @@ plt.show()
 
 
 ```python
-sm.qqplot(np.sqrt(df["Moderate Ne
+sm.qqplot(np.sqrt(df["Moderate Negative Skew_1"]),line='45')
+plt.show()
+```
 
 <img width="565" height="432" alt="download" src="https://github.com/user-attachments/assets/d3e948f0-6364-4767-ae48-ecae548694ed" />
 
-```pythongative Skew_1"]),line='45')
-plt.show()
-```
+```python
 pd.concat([CC,new],axis = 1)
 ```
 
@@ -281,5 +281,3 @@ pd.concat([CC,new],axis = 1)
 # RESULT:
 
 Thus, we have successfully performed Feature Encoding and Transformation process and saved the data to a file.
-       
-       
